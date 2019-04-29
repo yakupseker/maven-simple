@@ -58,5 +58,17 @@
                 </executions>
       </plugin>
     </plugins>
+   <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>yakupseker-VirtualBox-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+   </snapshotRepository>
+  <repository>
+        <id>central</id>
+        <name>yakupseker-VirtualBox-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
   </build>
-</project>
+  </project>
