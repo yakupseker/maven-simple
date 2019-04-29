@@ -57,7 +57,9 @@
                     </execution>
                 </executions>
       </plugin>
-       <distributionManagement>
+    </plugins>
+  </build>
+ <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
         <name>yakupseker-VirtualBox-snapshots</name>
@@ -69,6 +71,4 @@
         <url>http://localhost:8081/artifactory/libs-release-local</url>
     </repository>
 </distributionManagement>
-    </plugins>
-    </build>
-  </project>
+</project>
